@@ -22,6 +22,7 @@ var PORT = process.env.PORT || 8080;
 // The code below is pretty standard.
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
+//line 26!!!!!!
 app.use(express.static(path.join(__dirname, '../public')));
 app.use(bodyParser.text());
 app.use(bodyParser.json({ type: "application/vnd.api+json" }));
