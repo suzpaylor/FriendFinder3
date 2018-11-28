@@ -1,0 +1,17 @@
+{
+  "name": "friendfinder3",
+  "version": "1.0.0",
+  "description": "Use this simple app to find out which Brady Bunch Character you are compatible With!",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "path": "^0.12.7"
+  }
+}
